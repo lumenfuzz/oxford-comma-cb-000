@@ -7,7 +7,7 @@ def oxford_comma(array)
   when 2
     "#{array[0]} and #{array[1]}"
   else
-  last_e = array.pop
-  main_e = array.join(", ")
-  "#{main_e} and #{last_e}"
+    last_e = array.pop
+    main_e = array.join(", ")
+    "#{main_e} and #{last_e}"
 end
